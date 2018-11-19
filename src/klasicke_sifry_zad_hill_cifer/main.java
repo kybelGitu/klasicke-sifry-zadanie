@@ -39,7 +39,7 @@ public class main {
 //            builder.append(s);
         //str_file = Strin0
         str_file = Text.convertToTSA(str_file);
-        System.out.println("klasicke_sifry_zad_hill_cifer.main.main()" + str_file);
+        //System.out.println("klasicke_sifry_zad_hill_cifer.main.main()" + str_file);
         test.testHillMyMat(str_file);
         
     }
