@@ -47,10 +47,7 @@ public class CaesarCipher implements Cipher{
        }
        return OT.toString();
     }
-
-    @Override
-    public String encrypt(String OT, Key k) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
+        
 }
+    
+

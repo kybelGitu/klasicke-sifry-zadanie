@@ -13,7 +13,6 @@ public interface Cipher {
     public  String encrypt(Key K,String OT);
     public  String decrypt(Key K,String ZT);
 
-    public String encrypt(String OT, Key k);
 
            
 }

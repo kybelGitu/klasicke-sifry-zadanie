@@ -10,8 +10,8 @@ package crypto;
  * @author Peter
  */
 public class CaesarKey implements Key{
-   int offset = 3;
-   int modulo = 26;
+   int offset = 0;
+    int modulo = 26;
 
    public void setOffset(int offset) {
        this.offset = offset;
